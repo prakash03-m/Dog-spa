@@ -1,0 +1,40 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 50 vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* .App button {
+  background-color: lightgreen;
+  padding: 0.5rem;
+    border-color: lightgreen;
+    border-radius: 10px;
+  margin-left: 1400px;
+}
+
+.App #contact {
+  margin-left: 1400px;
+}
+.App #profile  {
+  margin-left: 1200px;
+}
+.App #checkOut {
+  margin-left: 1000px;
+} */
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

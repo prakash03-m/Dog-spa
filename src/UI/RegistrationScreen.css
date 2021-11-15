@@ -1,0 +1,89 @@
+.registration {
+    background-color: orange;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    border-style: ridge;
+    border-radius: 12px;
+    width: 90%;
+    /* max-width: 70rem; */
+    /* margin: 2rem auto; */
+    margin-top:144px;
+  margin-left: 51px;
+
+}
+
+.registration h1 {
+    background: #4d4b48;
+    min-height: 50 vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .registration section {
+    display: inline-block;
+    width: 515px;
+    padding: 0px 130px 0px 95px;
+    border: 1px;
+  }
+
+.registration input,
+.registration label, select, textarea {
+    display: block;
+    width: 350px;
+}
+
+.registration label {
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0.5rem;
+  }
+
+.registration input,
+textarea, select {
+   font: inherit;
+   padding: 0.5rem;
+   border-radius: 4px;
+   background: rgb(231, 229, 229);
+   border: 1px solid #ccc;
+   /* width: 20rem; */
+   /* max-width: 100%; */
+   margin-bottom: 0.5%;
+}
+
+.registration button {
+    background-color: rgb(89, 250, 89);
+    border: 1px solid rgb(89, 250, 89);
+    border-radius: 5px;
+    padding: 1.5% 17%;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
+.registration  button:hover,
+.registration  button:active {
+    background-color:darkgreen;
+    border-color: darkgreen;
+  }
+
+/* .username {
+    left: 10px;
+    margin-left: 15%;
+    top: 19.9%;
+    position: relative;
+}
+
+.password {
+    margin-left: 42%;
+    top: 25.3%;
+    position: absolute;
+} */
+
+.registrationImgClass {
+    width: 477px;
+    padding-top: 37px;
+}

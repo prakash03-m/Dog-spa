@@ -1,0 +1,93 @@
+.loginScreen {
+  margin-top: 180px;
+  margin-left: 150px;
+  margin-bottom: 140px;
+    padding: 3rem;
+    border-style: ridge;
+    border-radius: 12px;
+    /* width: 75%; */
+    background-color: orange;
+}
+
+.inputClass input,
+.loginScreen label {
+    display: block;
+    overflow: hidden;
+}
+
+.loginScreen label {
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0.5rem;
+  }
+
+.inputClass input {
+   font: inherit;
+   padding: 0.5rem;
+   border-radius: 4px;
+   background: rgb(231, 229, 229);
+   border: 1px solid #ccc;
+   width: 30rem;
+   max-width: 100%;
+   margin-bottom: 2%;
+}
+
+.invalid input {
+  border: 1px solid #b40e0e;
+  background-color: #f19393;
+}
+
+.checkbox {
+  width: 100%;
+  margin-left: 5%;
+    /* float: left; */
+}
+
+.checkbox input {
+  /* float: left; */
+  width: auto;
+  display: inline-flex;
+}
+
+.loginScreen button {
+    font: inherit;
+    color: black;
+    background-color: rgb(89, 250, 89);
+    border: 1px solid rgb(89, 250, 89);
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    cursor: pointer;
+    margin-top: 1%;
+  }
+  
+.loginScreen  button:hover,
+.loginScreen  button:active {
+    background-color:darkgreen;
+    border-color: darkgreen;
+  }
+ 
+.loginScreen #errorMessage {
+  font-weight: bold;
+  color: rgb(255, 2, 2);
+}
+.loginScreen #register {
+  margin-left: 2%;
+}
+
+.loginScreen #loginImg {
+  width: 480px;
+  top: 29%;
+  right: 246px;
+}
+
+.loginScreen section {
+  display: inline-block;
+  width: 500px;
+  padding: 0px 175px 0px 41px;
+  border: 1px;
+}
+
+.scroll-container {
+  scroll-behavior: smooth;
+}

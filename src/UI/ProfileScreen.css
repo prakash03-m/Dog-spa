@@ -1,0 +1,64 @@
+.profileScreen {
+    background: orange;
+    padding: 3%;
+    border-style: ridge;
+    border-radius: 12px;
+    width: 69%;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    margin-top: 144px;
+    margin-left: 160px;
+}
+
+.profileScreen label {
+    /* padding-right: 20%; */
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 1.5rem;
+    width: 190px;
+    display: inline-block;
+  }
+
+  .profileScreen input {
+margin-right: 30%;
+padding: 1%;
+padding-right: 15%;
+border-style: ridge;
+border-radius: 5px;
+border-color: orange;
+background: rgb(231, 229, 229);
+}
+
+.profileScreen #address {
+  margin-right: 2%;
+  padding: 1%;
+padding-right: 15%;
+border-style: ridge;
+border-radius: 5px;
+border-color: orange;
+background: rgb(231, 229, 229);
+}
+
+.profileScreen button {
+  font: inherit;
+  color: black;
+  background-color: rgb(89, 250, 89);
+  border: 1px solid rgb(89, 250, 89);
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 1%;
+}
+
+.profileScreen  button:hover,
+.profileScreen  button:active {
+  background-color:darkgreen;
+  border-color: darkgreen;
+}
+
+.profileScreen #cancel {
+  margin-left: 2%;
+}
+/* position: absolute;
+    bottom: 45%;
+    left: 15.5%; */
